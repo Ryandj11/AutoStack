@@ -45,26 +45,6 @@ docker-compose up --build
 | `--with-tests`                  | Add testing setup                     |
 | `--with-ci`                     | Add GitHub Actions CI/CD              |
 
-## 🗂️ Generated Project Structure
-
-```
-myapp/
-├── backend/
-│   ├── main.py
-│   ├── requirements.txt
-│   └── tests/
-│       └── test_main.py
-├── client/ (optional, if React selected)
-│   └── Vite + React setup
-├── Dockerfile
-├── docker-compose.yml
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-├── .gitignore
-└── README.md
-```
-
 ## 🛠️ Supported Technologies
 
 - **Backend**: FastAPI
@@ -72,11 +52,3 @@ myapp/
 - **Containerization**: Docker, Docker Compose
 - **CI/CD**: GitHub Actions
 - **Testing**: pytest, Jest
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-MIT License
